@@ -1,0 +1,6 @@
+A="In order to determine how to write a paragraph, you will have to find a good topic and collect enough information regarding the topic. Once you find the supporting details, you can start framing the sentences, connect the sentences following a sequence, and find a perfect concluding sentence. To understand it better, we have provided a few paragraph writing examples for your reference."
+C=0
+for i in range(len(A)):
+    if(A[i]==' ' and A[i+1]!=' '):
+        C=C + 1 
+print("The number of words:", C+1 )
