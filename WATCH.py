@@ -18,5 +18,12 @@ while(True):
     if(h==60):
         s=0
         m=0
+
+
+import pytz
+from datetime import datetime
+a=pytz.timezone("Asia/Tokyo")
+b=datetime.now(a)
+print(b)
         
 
